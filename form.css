@@ -1,0 +1,133 @@
+.t{
+    width: 400px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: rgba(118, 232, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #333;
+    text-shadow: 1px 2px 2px rgba(255, 255, 255, 0.801);
+}
+
+#form-just{
+    width: 550px;
+    height: 470px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(165, 234, 255);
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(118, 232, 255, 1);
+}
+
+.form-group{
+    margin: 12.5px;
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+label{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px rgba(118, 232, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+#date{
+    width: 350px;
+    height: 40px;
+    box-shadow: 5px 10px 10px rgba(118, 232, 255, 1);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.period{
+    width: 350px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#period_initial, #period_end{
+    width: 165px;
+    height: 40px;
+    box-shadow: 5px 10px 10px rgba(118, 232, 255, 1);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#justification{
+    width: 350px;
+    height: 40px;
+    box-shadow: 5px 10px 10px rgba(118, 232, 255, 1);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+option{
+    width: 350px;
+    height: 40px;
+    box-shadow: 5px 10px 10px rgba(118, 232, 255, 1);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#document {
+    width: 350px;
+    height: 40px; 
+    box-shadow: 5px 10px 10px rgba(118, 232, 255, 1);
+    border-radius: 5px;
+    padding-top: 10px; 
+    padding-left: 15px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#document::-webkit-file-upload-button {
+    display: none;
+}
+
+button{
+    width: 400px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px rgba(118, 232, 255, 1);
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease-in-out .4s;
+    color: #333;
+}
+
+button:hover{
+    background-color: rgba(118, 232, 255, 0.829);
+    transform: translateY(-3px);
+    transition: all ease-in-out .3s;
+}
+
+#form-just {
+    width: 90vw;
+    max-width: 900px;
+    min-width: 300px;
+    height: 50vh;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px rgba(118, 232, 255, 1);
+    background-color: rgba(150, 225, 255, 0.65);
+}
